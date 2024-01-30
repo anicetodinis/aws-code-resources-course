@@ -1,0 +1,24 @@
+```
+ssh ec2-user@ec2-13-52-102-83.us-west-1.compute.amazonaws.com #gives error
+
+ssh -i ec2-course.pem ec2-user@ec2-13-52-102-83.us-west-1.compute.amazonaws.com
+```
+
+fix the uprotected private key file
+chmod 0400 your_keypair_name.pem
+
+verification:
+ whoami
+ ping google.com 
+
+#Linux commands:
+```
+ls  #shows a list of directories or files
+mkdir mydir # make a directory called mydir
+cd .. #change directory
+lsblk  #view your available disk devices and their mount points
+sudo file -s #get info about a specific device
+
+```
+
+

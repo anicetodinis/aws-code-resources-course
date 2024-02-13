@@ -18,7 +18,7 @@ Resources:
     Properties:
       AvailabilityZone: !Ref AvailabilityZone
       InstanceType: t2.micro
-      ImageId: ami-04e35eeae7a7c5883  # Replace with the Linux 2023 AMI ID
+      ImageId: ami-0e731c8a588258d0d  # Replace with the Linux 2023 AMI ID
       KeyName: !Ref KeyPairName
       SecurityGroupIds:
         - !Ref WebAppSecurityGroup

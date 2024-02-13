@@ -3,7 +3,7 @@ Resources:
   S3Bucket:
     Type: 'AWS::S3::Bucket'
     Properties:
-      BucketName: hellothere-872oeef
+      BucketName: hellothere-673gvg
 Outputs:
   S3Bucket:
     Description: This S3 bucket was created using CloudFormation template
